@@ -13,8 +13,6 @@ color: ""
 
 **You are also going to learn how to add Netlify CMS to your site by creating and configuring files, then connecting the CMS to your site through user authentication.**
 
-
-
 ## What is Gatsby?
 
 [Gatsby](https://www.gatsbyjs.com/) is a free and open-source framework based on React that helps you build fast websites and web apps. It is also a static site generator like Next.js, Hugo, and Jekyll.
@@ -87,7 +85,7 @@ What's does this command line mean exactly? Let me explain.
 * **gatsby-starter-blog** - This is the name of the project. You can name it whatever you want here. I named this project gatsby-starter-blog as an example only.
 * **The URL** (<https://github.com/gatsbyjs/gatsby-starter-blog>) - This URL specified points to a code repository that holds the starter code you want to use. In other words, I picked the theme for the project.
 
-Once the installation is complete, we'll run the `cd `gatsby-starter-blog command which will take us to the location of our project file.
+Once the installation is complete, we'll run the `cd`gatsby-starter-blog command which will take us to the location of our project file.
 
 Then we'll run `gatsby develop` that will start running on the local machine. Depending on the specs of your computer, it will take a little while before it is fully started.
 
@@ -97,11 +95,7 @@ gatsby develop
 
 Open a new tab in your browser and go to `http://localhost:8000/`. You should now see your new Gatsby site!
 
-
-
 Now that we've created the blog, the next step is to add Netlify CMS to make writing blog posts easier.
-
-
 
 ## How to add Netlify CMS to your site
 
@@ -136,8 +130,6 @@ When you open your text editor, you will see a lot of files. You can read [this
 └── README.md
 ```
 
-
-
 Do not worry about all these files — we are going to use very few of them here.
 
 What we are looking for is the `static` folder. This is the folder where it will form the main structure of the Netlify CMS.
@@ -151,8 +143,6 @@ admin
  ├ index.html
  └ config.yml
 ```
-
-
 
 The first file, `index.html`, is the entry point to your CMS admin. This is where Netlify CMS lives. You don't need to do styling or anything as it is already done for you with the script tag in the example below:
 
@@ -170,11 +160,7 @@ The first file, `index.html`, is the entry point to your CMS admin. This is whe
 </html>
 ```
 
-
-
 The second file, `config.yml`, is the main core of the Netlify CMS. It's going to be a bit complicated as we are going to write backend code. We'll talk more about it in the configuration section.
-
-
 
 ### How to configure the back end
 
@@ -188,8 +174,6 @@ backend:
   branch: master
 ```
 
-
-
 **Heads up**: This code above works for GitHub and GitLab repositories. If you're using Bitbucket to host your repository, follow these [instructions](https://www.netlifycms.org/docs/bitbucket-backend/) instead.
 
 The code we just wrote specifies your backend protocol and your publication branch (which is branch: master). Git Gateway is an open-source API that acts as a proxy between authenticated users of your site and your site repository. I'll explain more what this does in the authentication section.
@@ -199,8 +183,6 @@ Next up, we will write `media_folder: "images/uploads"`. This will allow you to
 ```
 media_folder: "images/uploads"
 ```
-
-
 
 Make sure you created a folder called `images` in the `admin` folder. Inside the `images` folder, create an `uploads` folder as this is the place where you'll host your images.
 
@@ -221,11 +203,7 @@ thumbnail: "/images/sandwich.jpg"
 This is the post body where I write about how to make a sandwich so good that will impress Gordon Ramsay.
 ```
 
-
-
 With this example above, this is how you will add `collections` settings to your Netlify CMS `config.yml` file:
-
-
 
 ```yaml
 collections:
@@ -240,8 +218,6 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
 ```
-
-
 
 Let's examine what each of these fields does:
 
@@ -263,11 +239,7 @@ And lastly, the widget determines how the UI style will look and the type of dat
 - {label: "Publish Date", name: "date", widget: "datetime"}
 ```
 
-
-
 You can check the list right [here](https://www.netlifycms.org/docs/widgets/) to see what exactly you can add. If you want, you can even create your own widgets, too. For the sake of brevity, we'll try to keep things simple here.
-
-
 
 ### Enable Authentication
 
@@ -280,8 +252,6 @@ We are going to need a way to connect a front end interface to the backend so th
 ```javascript
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 ```
-
-
 
 The first file to add this script tag is the `admin/index.html` file. Place it between the `<head>` tags. And the second file to add the tag is the `public/index.html` file. This one also goes in between the `<head>` tags.
 
@@ -303,21 +273,15 @@ To do this, add the following code before the closing `body` tag of the `publ
 </script>
 ```
 
-
-
 With this, we are now done writing the code and it's time to visit Netlify to activate authentication.
 
 Before we move on, you should Git commit your changes and push them to the repository. Plus, you will have to deploy your site live so you can access the features in the Enable Identity and Git Gateway section.
-
-
 
 ## Deploy your site live with Netlify
 
 We are going to use Netlify to deploy our Gatsby site live. The deployment process is pretty straightforward, quick, and most importantly, it comes with a free SSL (Secure Sockets Layer). This means your site is protected (you can tell by looking at the green lock on the browser search).
 
 If you haven't signed up for the platform, you can do it [right here](https://app.netlify.com/signup?_ga=2.69477016.986166254.1601369549-1254573554.1571849986). When you've finished signing up, you can begin the deployment process by following these 3 steps.
-
-
 
 1. Click the "New site from Git" button to create a new site to be deployed. Choose the Git provider where your site is hosted. My site is hosted on GitHub so that's what I will choose.
 2. Choose the repository you want to connect to Netlify. The name of my Gatsby site is "foodblog" but you have to pick your own project name.
@@ -326,18 +290,6 @@ If you haven't signed up for the platform, you can do it [right here](https://a
 Once the deployment is complete, you can visit your live site by clicking the green link that has been generated for you on the top left of the screen. Example: `https://random_characters.netlify.app`.
 
 With this, the world can now view your site. You can replace the weird URL with your custom domain by reading this [documentation](https://docs.netlify.com/domains-https/custom-domains/#definitions).
-
-
-
-### How to enable Identity and Git Gateway
-
-Netlify's Identity and Git Gateway services help you manage CMS admin users for your site without needing them to have an account with your Git host (Like GitHub) or commit access on your repository.
-
-To activate these services, head to your site dashboard on Netlify and follow these steps:
-
-1. Go to **Settings** > **Identity**, and select **Enable Identity** service.
-
-<!--StartFragment-->
 
 ### How to enable Identity and Git Gateway
 
@@ -349,21 +301,15 @@ To activate these services, head to your site dashboard on Netlify and follow th
 
 Click the "Enable Identity" button to activate the Identity feature.
 
-
-
 2. Under **Registration** preferences, select **Open** or **Invite only**. Most of the time, you want only invited users to access your CMS. But if you are just experimenting, you can leave it open for convenience.
 
 Under the Identity submenu, click the "Registration" link and you'll be taken to the registration preferences.
-
-
 
 3. Scroll down to **Services** > **Git Gateway**, and click **Enable Git Gateway**. This authenticates with your Git host and generates an API access token.
 
 In this case, we're leaving the **Roles** field blank, which means any logged-in user may access the CMS.
 
 With this, your Gatsby site has been connected with Netlify CMS. All that is left is to access the CMS admin and write blog posts.
-
-
 
 ## How to access the CMS
 
@@ -379,8 +325,6 @@ Alternatively, if you selected **Open**, you can access your site's CMS directl
 
 If everything goes well, you should see your site's admin dashboard:
 
-
-
 You can create your new post by clicking the "New post" button.
 
 When you're ready to publish your post, you can click the "Publish Now" button to publish it immediately.
@@ -391,8 +335,6 @@ You can view the changes by looking at the commit message in your host repositor
 
 After waiting for a few minutes, your new post should be live.
 
-
-
 ### One more thing
 
 The last thing to do is clean up the sample articles. To delete these posts, go to the blog files in your text editor and delete them one by one. Make sure you check your terminal when deleting them so that there will be no issues on your site.
@@ -400,8 +342,6 @@ The last thing to do is clean up the sample articles. To delete these posts, go 
 Once all the sample posts are cleared out, commit these changes and push them to the repository.
 
 And now, you are all done! You can now create your new posts from the comfortable CMS dashboard and share your stories to the world.
-
-
 
 ## Summary
 
@@ -413,10 +353,6 @@ In this guide you have learned how to:
 * Access your site's CMS admin
 * Publish your first post powered by Gatsby and Netlify CMS
 
-
-
-
-
-> ### **Julian Battaglino** 
+> ### **Julian Battaglino**
 >
 > Freelance front end developer
