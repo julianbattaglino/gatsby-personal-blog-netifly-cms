@@ -6,11 +6,7 @@ tags:
   - Marketing
 image: ""
 ---
-# Estructura de un plan de marketing digital paso a paso
-
 ¿Cómo crear con éxito un plan de marketing digital para tu empresa? Tu plan de marketing digital tiene que tener en cuenta: SEO, análisis, posicionamiento web, estrategias, redes sociales, objetivos y métricas.
-
-
 
 Poner en marcha acciones de marketing digital sin un plan y una estrategia previa puede llevar al fracaso al no contemplar todos los aspectos que pueden llegar a condicionar el desarrollo de aquellas. [Determinar un público objetivo específico](https://www.wearemarketing.com/es/blog/buyer-personas-los-tienes-bien-definidos-cuando-actualizarlos.html) (buyer persona), unos objetivos de negocio y una propuesta de valor adecuada son algunos de los aspectos que hay que desarrollar en un **plan de marketing digital**.
 
@@ -53,8 +49,6 @@ Poner en marcha [técnicas de benchmarking](https://blogginzenith.zenithmedia.e
 
 Además, realizar un estudio interno también es necesario para conocer cuál es la **situación de nuestra empresa en el plano digital:** ¿está nuestra web orientada al cliente?, ¿la usabilidad y la experiencia de navegación son buenas?, ¿actualizamos periódicamente nuestro blog?, ¿cuál es el posicionamiento actual de nuestra web?, ¿y nuestra presencia en redes sociales?
 
-
-
 **Paso 2: Establecer objetivos de marketing digital**
 
 Una vez tengas claro tu lugar en el mercado y cuáles son tus puntos fuertes, trabaja en establecer unos objetivos para tener claro hacia dónde debes dirigir todas tus acciones. Todo lo que planifiques ha de estar orientado a alcanzar estas metas.
@@ -65,8 +59,6 @@ Un ejemplo:
 
 * **Objetivos no SMART**: “Quiero aumentar las visitas a mi web.”
 * **Objetivo SMART**: “Quiero conseguir 20.000 visitas al mes en mi web en dentro de tres meses. Y para ello voy a hacer…”.
-
-
 
 **Paso 3: Definir la estrategia de marketing**
 
@@ -99,8 +91,6 @@ Además, debes tener en cuenta:
 * Qué tono vas a emplear.
 * Cada cuánto vas a publicar.
 
-
-
 **Paso 4: Estrategias digitales y tácticas**
 
 Según cuáles sean nuestros objetivos (atracción, conversión y fidelización) pondremos en marcha unas estrategias u otras: campañas de [email marketing](https://www.wearemarketing.com/es/blog/el-email-como-herramienta-de-marketing-digital.html), [redes sociales](https://www.wearemarketing.com/es/blog/tendencias-en-redes-sociales-en-2017-que-hay-de-nuevo-amigo.html), [CRM](https://www.wearemarketing.com/es/blog/crm-potencia-tu-fuerza-de-ventas.html), optimización de la web, estrategias [SEO](https://www.wearemarketing.com/es/blog/el-mobile-first-index-y-el-nuevo-posicionamiento-seo.html) - SEM, publicidad de pago, etc.
@@ -110,8 +100,6 @@ Hoy en día, teniendo en cuenta que cada vez son más abundantes los canales a g
 Gracias a ellas podrás crear *workflows* que te permitirán **crear cientos de campañas con apenas unos clics**. Podrás personalizar los mensajes según tu *buyer persona*, multiplicando tus posibilidades de éxito; y, además, llevarles, según vayan interactuando con tu marca, hacia el momento de compra.
 
 La tecnología se ha convertido es una herramienta básica en a la hora de implementar estrategias digitales, por lo que es importante que aprender a sacar el máximo provecho de ella.
-
-
 
 **Paso 5: Medición y KPIs de marketing digital**
 
