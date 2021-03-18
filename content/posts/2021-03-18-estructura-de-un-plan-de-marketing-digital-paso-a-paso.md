@@ -4,15 +4,13 @@ title: Estructura de un plan de marketing digital paso a paso
 date: 2021-03-18T19:39:03.715Z
 tags:
   - Marketing
-image: /images/uploads
+image: ""
 ---
-
-
 # Estructura de un plan de marketing digital paso a paso
 
 ¿Cómo crear con éxito un plan de marketing digital para tu empresa? Tu plan de marketing digital tiene que tener en cuenta: SEO, análisis, posicionamiento web, estrategias, redes sociales, objetivos y métricas.
 
-![Cómo hacer un plan de marketing digital paso a paso](https://www.wearemarketing.com/uploads/media/default/0001/20/0701058dbb596b9e75608e60c3ebe2da1debce7b.jpeg)
+
 
 Poner en marcha acciones de marketing digital sin un plan y una estrategia previa puede llevar al fracaso al no contemplar todos los aspectos que pueden llegar a condicionar el desarrollo de aquellas. [Determinar un público objetivo específico](https://www.wearemarketing.com/es/blog/buyer-personas-los-tienes-bien-definidos-cuando-actualizarlos.html) (buyer persona), unos objetivos de negocio y una propuesta de valor adecuada son algunos de los aspectos que hay que desarrollar en un **plan de marketing digital**.
 
@@ -49,14 +47,13 @@ A continuación te explicamos cómo estructurar tu plan de marketing paso a paso
 **Paso 1: Análisis de la situación**\
 Es necesario realizar, en primer lugar, un análisis tanto interno como externo de la empresa. El **análisis DAFO** (debilidades, amenazas, fortalezas y oportunidades) puede resultarte muy útil. A través de él tendrás una visión completa del mercado, los recursos, la competencia, puntos fuertes y débiles.
 
-Necesitamos conocer el ecosistema en el que nos movemos, ser conscientes de cuáles son las necesidades de los consumidores y dónde las cubren. Una **evaluación tanto cualitativa como cuantitativa**: hábitos digitales, intermediarios, *influencers*, etc.\
-\
-![Análisis DAFO en un plan de marketing](https://www.wearemarketing.com/uploads/media/default/0001/19/a4f12b39013498e955c8bb0314f58f51d39b625c.jpeg)\
+Necesitamos conocer el ecosistema en el que nos movemos, ser conscientes de cuáles son las necesidades de los consumidores y dónde las cubren. Una **evaluación tanto cualitativa como cuantitativa**: hábitos digitales, intermediarios, *influencers*, etc.
+
 Poner en marcha [técnicas de benchmarking](https://blogginzenith.zenithmedia.es/benchmarking-diczionario/) es una práctica muy común en las empresa para identificar las mejores prácticas digitales y casos de éxito de la competencia y así poder aplicarlas al propio negocio.
 
 Además, realizar un estudio interno también es necesario para conocer cuál es la **situación de nuestra empresa en el plano digital:** ¿está nuestra web orientada al cliente?, ¿la usabilidad y la experiencia de navegación son buenas?, ¿actualizamos periódicamente nuestro blog?, ¿cuál es el posicionamiento actual de nuestra web?, ¿y nuestra presencia en redes sociales?
 
-![Estructura de un plan de marketing digital](https://www.wearemarketing.com/uploads/media/default/0001/20/2c5371b934c80ad2cf4e8452db92f7151b184d0c.jpeg)
+
 
 **Paso 2: Establecer objetivos de marketing digital**
 
@@ -64,14 +61,12 @@ Una vez tengas claro tu lugar en el mercado y cuáles son tus puntos fuertes, tr
 
 Puedes guiarte, en el desarrollo de esta parte de tu **plan de marketing**, a través de los [objetivos SMART](https://www.wearemarketing.com/es/blog/por-que-los-marketing-managers-deben-estar-obsesionados-con-el-analisis-de-datos.html): objetivos específicos, medibles, alcanzables, realistas y temporales.\
 \
-![Objetivos SMART](https://www.wearemarketing.com/uploads/media/default/0001/19/dfa940b77871c4e6e71773c38bf9c48bdfa6c5e2.jpeg)
-
 Un ejemplo:
 
 * **Objetivos no SMART**: “Quiero aumentar las visitas a mi web.”
 * **Objetivo SMART**: “Quiero conseguir 20.000 visitas al mes en mi web en dentro de tres meses. Y para ello voy a hacer…”.
 
- 
+
 
 **Paso 3: Definir la estrategia de marketing**
 
@@ -80,18 +75,12 @@ Una vez definidos los objetivos de negocio, ¿qué vas a hacer para conseguirlos
 * ### **Segmentación del público objetivo:**
 
   saber a quién te quieres dirigir, cuáles son sus gustos, necesidades o preferencias, dónde las busca cubrir, etc. Es el momento de crear tu *buyer persona*.
-
-   
 * ### **Posicionamiento:**
 
   para lograr un buen posicionamiento, es importante que tengas muy claro (y lo hagas llegar a tu audiencia de la misma forma) en qué consiste tu propuesta de valor. En definitiva, por qué el consumidor debe elegirte a ti y no a la competencia.  Es necesario saber cómo vas a comunicar tu valor diferencial y cómo hacerlo a través de los diferentes canales en los que tu audiencia esté presente (redes sociales, blog, email, etc.).
-
-   
 * ### **Estrategia de contenidos:**
 
   importante para crear, distribuir y gestionar contenido original que atrae a los usuarios y posicione la marca como referente en su ‘top of mind’. Además, es necesaria para trazar una política de comunicación específica ([marketing de contenidos](https://www.wearemarketing.com/es/blog/que-es-la-narrativa-transmedia-y-como-aplicarla-a-tu-estrategia-de-contenidos-digital.html)) para cada canal. Algunas de las herramientas utilizadas para ejecutar esta estrategia son:
-
-   
 
 1. #### ***Keyword research***
 
@@ -110,7 +99,7 @@ Además, debes tener en cuenta:
 * Qué tono vas a emplear.
 * Cada cuánto vas a publicar.
 
- 
+
 
 **Paso 4: Estrategias digitales y tácticas**
 
@@ -122,7 +111,7 @@ Gracias a ellas podrás crear *workflows* que te permitirán **crear cientos 
 
 La tecnología se ha convertido es una herramienta básica en a la hora de implementar estrategias digitales, por lo que es importante que aprender a sacar el máximo provecho de ella.
 
- 
+
 
 **Paso 5: Medición y KPIs de marketing digital**
 
