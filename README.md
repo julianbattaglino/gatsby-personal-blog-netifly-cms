@@ -27,7 +27,7 @@ Typography driven, feature-rich blogging theme with minimal aesthetics. Includes
 Use the Gatsby CLI to create a new site, specifying this project
 
 ```sh
-gatsby new project-name https://github.com/julianbattaglino/gatsby-blog-netifly-cms
+gatsby new project-name https://github.com/julianbattaglino/gatsby-personal-blog-netifly-cms
 ```
 
 2. **Start developing.**
