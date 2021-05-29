@@ -20,20 +20,12 @@ module.exports = {
             slug: `/about`,
           },
           {
-            title: `Proyectos`,
-            slug: `/proyectos`,
-          },
-          {
             title: `Blog`,
             slug: `/blog`,
           },
           {
             title: `Tags`,
             slug: `/tags`,
-          },
-          {
-            title: `Contact`,
-            slug: `/contact`,
           },
 
         ],
