@@ -9,7 +9,7 @@ tags:
   - css
   - Animations
 ---
-![Potions Class](/img/aos.jpg)
+![Potions Class](./img/aos.jpg)
 
 Una libreria Javascript simple para añadir efectos al hacer scroll.
 
