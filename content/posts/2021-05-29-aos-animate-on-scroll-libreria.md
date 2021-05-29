@@ -9,7 +9,7 @@ tags:
   - css
   - Animations
 ---
-![](/img/gatsby.jpg)
+![](/img/aos.jpg)
 
 Una libreria Javascript simple para añadir efectos al hacer scroll.
 
