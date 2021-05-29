@@ -37,6 +37,8 @@ Si descargamos la libreria, la vamos a añadir a nuestro proyecto de la siguient
 
 ### ¿Carga mediante CDN?
 
+
+
 ```html
 <html>
 <head>
@@ -47,8 +49,6 @@ Si descargamos la libreria, la vamos a añadir a nuestro proyecto de la siguient
 </body>
 </html>
 ```
-
-
 
 Una vez que cargemos estos dos archivos vamos a inicializar el plugin. Este código puede estar dentro de la etiqueta body o en un archivo .js externo.
 
