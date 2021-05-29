@@ -9,6 +9,8 @@ tags:
   - css
   - Animations
 ---
+![](/img/gatsby.jpg)
+
 Una libreria Javascript simple para añadir efectos al hacer scroll.
 
 Lo primero que tenemos que hacer es descargarnos la librería y añadirla a nuestro proyecto, o tambien podemos añadirla con algun cdn (Content Delivery Network). [Desde el sitio oficial](https://michalsnik.github.io/aos/) podemos descargar los archivos *aos.css* y *aos.js* para incluirlos en nuestro sitio.
