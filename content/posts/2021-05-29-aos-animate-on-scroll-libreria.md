@@ -2,6 +2,12 @@
 layout: blog
 title: AOS (Animate On Scroll) Libreria
 date: 2021-05-29T16:59:17.298Z
+tags:
+  - Javascript
+  - Libraries
+  - html
+  - css
+  - Animations
 ---
 Una libreria Javascript simple para añadir efectos al hacer scroll.
 
@@ -18,8 +24,6 @@ Si descargamos la libreria, la vamos a añadir a nuestro proyecto de la siguient
 ├── style.css
 ```
 
-
-
 ```html
 <html>
 <head>
@@ -31,7 +35,7 @@ Si descargamos la libreria, la vamos a añadir a nuestro proyecto de la siguient
 </html>
 ```
 
-## **Carga mediante CDN:**
+### ¿Carga mediante CDN?
 
 ```html
 <html>
@@ -43,6 +47,8 @@ Si descargamos la libreria, la vamos a añadir a nuestro proyecto de la siguient
 </body>
 </html>
 ```
+
+
 
 Una vez que cargemos estos dos archivos vamos a inicializar el plugin. Este código puede estar dentro de la etiqueta body o en un archivo .js externo.
 
@@ -66,13 +72,9 @@ Muy facil!. Imagínate que quieres añadir una animación a una etiqueta h1 y ot
 </div>
 ```
 
-
-
 Cómo ves la dinámica es la siguiente añadimos el atributo y valor *data-aos=»fade-up»* para especificar el tipo de animación ( de arriba a abajo). Y el atributo data-aos-delay=»1200″ para el retraso o delay. Este valor se escribe en milisegundos y en teste caso corresponde a 1.2 segundos.
 
 Podemos añadir algunos atributos más para personalizar nuestras animaciones  y efectos.
-
-
 
 ### ¿Qué atributos podemos utilizar con AOS?
 
@@ -83,8 +85,6 @@ Podemos añadir algunos atributos más para personalizar nuestras animaciones  
 *data-aos-easing="ease-in-out"*. Tipo  de transición.\
 *data-aos-once="true": Indicamos que la animación sólo se aplica una vez y no cada vez que nos desplazamos*\
 *data-aos-anchor-placement="top-center". La posición desde la cual se aplica o se contabiliza el offset.*
-
-
 
 ### ¿Qué tipo de animaciones podemos añadir?
 
@@ -128,5 +128,3 @@ Podemos añadir algunos atributos más para personalizar nuestras animaciones  
 * zoom-out-down
 * zoom-out-left
 * zoom-out-right
-
-<!--EndFragment-->
