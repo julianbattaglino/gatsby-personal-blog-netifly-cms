@@ -38,7 +38,7 @@ Sin embargo, antes de desarrollar los pasos que definen la estructura de un plan
 
 A continuación te explicamos cómo estructurar tu plan de marketing paso a paso: 
 
-## Estructura de un plan de marketing digital en 2020
+## Estructura de un plan de marketing digital
 
 **Paso 1: Análisis de la situación**\
 Es necesario realizar, en primer lugar, un análisis tanto interno como externo de la empresa. El **análisis DAFO** (debilidades, amenazas, fortalezas y oportunidades) puede resultarte muy útil. A través de él tendrás una visión completa del mercado, los recursos, la competencia, puntos fuertes y débiles.
